@@ -3,6 +3,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Font Family Import -- Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital@1&family=Roboto:ital,wght@1,100&display=swap');
 html,
 body {
     padding: 0;
@@ -18,4 +22,8 @@ a {
 
 * {
     box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Barlow', sans-serif;
 }
